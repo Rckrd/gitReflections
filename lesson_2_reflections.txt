@@ -20,3 +20,7 @@ Q: How do the diagrams help you visualize the branch structure
 git log --graph --oneline  branch1 branch2
 visualise workflow, when was a branch created and why, how does the workflow work out
 
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: Pros - automatic saves time when there are not edits on same file. 
+   Cons - Git cannot detect "conceptual conflicts" - maybe this can be alleviated by keeping commits to coherent concepts instead of a part of a concept
+
